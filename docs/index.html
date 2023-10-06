@@ -22,18 +22,21 @@
             <div class="submit-form">
                 <div class="form-item">
                     <label class="label" for="KG">Put your weight in here (KG)</label>
-                    <input type="text" name="KG" id="weight" placeholder="KG">
+                    <input type="text" name="KG" id="weight" placeholder="KG" required>
                 </div>
                 <div class="form-item">
                     <label class="label" for="CM">And your height in here (CM)</label>
-                    <input type="text" name="KG" id="weight" placeholder="CM">
+                    <input type="text" name="CM" id="height" placeholder="CM" required>
                 </div>
                 <div class="form-item">
-                    <span type="submit" id="submit-item">Calculate BMI</span>
+                    <button type="submit" id="submit-item">Calculate BMI</button>
                 </div>
-                <div id="alert" class="alert">add</div>
+                <div id="output" class="alert">
+                </div>
             </div>
         </form>
+
     </section>
+    <script src="../script/script.js"></script>
 </body>
 </html>

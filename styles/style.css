@@ -57,16 +57,26 @@
     border: 0.3px rgb(180, 166, 166) solid;
 }
 
-.form-item span{
+.form-item button{
     background-color: rgb(84, 52, 134);
     color: white;
-    padding: 8px 14px;
+    padding: 10px 14px;
     border-radius: 4px;
     font-weight: 600;
-}
+    border: none;
+    text-decoration: none;
 
+}
+#submit-item{
+    cursor: pointer;
+}
+#submit-item:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(135, 21, 158);
+
+}
 .alert{
     margin-top: 28px;
     margin-left: 20px;
-    font-weight: 600;
+    font-weight:500;
 }
