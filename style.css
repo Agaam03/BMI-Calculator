@@ -6,7 +6,9 @@
     list-style: none;
     font-family: 'Nunito Sans', sans-serif;
 }
-
+body{
+    background-color: black;
+}
 .container{
     margin: auto;
     width: 50%;
@@ -22,10 +24,11 @@
     padding-bottom: 15px;
     font-weight: 800;
     font-size: 32px;
-    color: rgb(69, 84, 170);
+    color: rgb(187, 16, 202);
 }
 
 .title p{
+    color: white;
     font-size: 18px;
     font-weight: 500;
 }
@@ -35,6 +38,7 @@
 }
 
 .label{
+    color: white;
     font-weight: 600;
 }
 
@@ -49,12 +53,13 @@
 }
 
 .form-item input{
+    background-color: rgb(206, 199, 199);
     margin-top: 7px;
     padding: 7px;
     display: block;
     width: 100%;
     font-weight:600;
-    border: 0.3px rgb(180, 166, 166) solid;
+    border: 0.3px rgb(0, 0, 0) solid;
 }
 
 .form-item button{
@@ -76,6 +81,7 @@
 
 }
 .alert{
+    color: white;
     margin-top: 28px;
     margin-left: 20px;
     font-weight:500;
